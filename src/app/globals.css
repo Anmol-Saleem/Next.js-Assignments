@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+.header {
+  background-color:#F4CCCC ;
+  color:#C8A2C8 ;
+}
+
+.header-buttons {
+  font-size: 30px;
+  margin-left : 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-style:italic;
+  font-weight: 500;
+
+
+}
+.footer {
+  background-color: #2d3748; 
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-link {
+  color: #63b3ed; 
+  margin: 0 0.5rem;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .homeContainer {
   background-color: #C8A2C8;
@@ -20,4 +57,4 @@
     
   }
 
-  
+ 

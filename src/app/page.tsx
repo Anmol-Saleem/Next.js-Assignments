@@ -1,8 +1,11 @@
+
 import Image from "next/image";
 import pic from "./public/OIG2.jpeg"
+import Footer from "./footer-components/footer";
 export default function Home() {
   return (
 <div>
+  
 <div className="homeContainer">
 
   <div className="childContainer">
@@ -31,6 +34,7 @@ export default function Home() {
   
 </div>
 </div>
+<Footer />
 </div>
 
   );
